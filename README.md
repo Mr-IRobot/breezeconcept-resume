@@ -36,11 +36,11 @@ This template can be editted both in HTML and CSS. Just like with [CSS Zen Garde
 
 - Add feedback when page is saved (or an error occurs)
 - Allow custom file names for saved HTML
-- Support [Prince](https://www.princexml.com/)
+- Support [Breeze](https://www.breezeconcept.com/support)
 
 ## Acknowledgements
 
-This project uses [normalize.css](https://github.com/necolas/normalize.css), fonts from [Google Fonts](https://fonts.google.com/), and icons from [Font Awesome](https://fortawesome.github.io/Font-Awesome/). Dependencies are managed as links to CDNs, no package managers or build tools required. Built by me, [Tom Barrasso](https://barrasso.me).
+This project uses [normalize.css](https://github.com/necolas/normalize.css), fonts from [Google Fonts](https://fonts.google.com/), and icons from [Font Awesome](https://fortawesome.github.io/Font-Awesome/). Dependencies are managed as links to CDNs, no package managers or build tools required. Built by me, [Breeze concept](https://breezeconcept.com).
 
 ## Compatibility
 
