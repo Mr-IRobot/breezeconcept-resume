@@ -298,12 +298,12 @@
         document.querySelector('meta[name="keywords"]').setAttribute('content', skills.join(','));
     }
 
-    function updateTitle() {
-        var authorName = getAuthor();
-        var summaryText = getSummary();
-        if ((!summaryText && summaryText.length) || !(authorName && authorName.length)) return;
-        document.title = authorName + " - " + summaryText;
-    }
+//     function updateTitle() {
+//         var authorName = getAuthor();
+//         var summaryText = getSummary();
+//         if ((!summaryText && summaryText.length) || !(authorName && authorName.length)) return;
+//         document.title = authorName + " - " + summaryText;
+//     }
 
     if (hasLocalStorage) {
         restoreSavedPage();
