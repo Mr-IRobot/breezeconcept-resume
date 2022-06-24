@@ -270,15 +270,15 @@
         return authorName;
     }
 
-//     function getSkills() {
-//         var skillEls = document.querySelectorAll('.skills li');
-//         if (!(skillEls && skillEls.length)) return [];
-//         var skills = new Array(skillEls.length);
-//         for (var i = 0, e = skillEls.length; i < e; i++) {
-//             skills[i] = skillEls[i].textContent.trim();
-//         }
-//         return skills;
-//     }
+    function getSkills() {
+        var skillEls = document.querySelectorAll('.skills li');
+        if (!(skillEls && skillEls.length)) return [];
+        var skills = new Array(skillEls.length);
+        for (var i = 0, e = skillEls.length; i < e; i++) {
+            skills[i] = skillEls[i].textContent.trim();
+        }
+        return skills;
+    }
 
     function updateMetaSubject() {
         var summaryText = getSummary();
@@ -298,12 +298,12 @@
         document.querySelector('meta[name="keywords"]').setAttribute('content', skills.join(','));
     }
 
-//     function updateTitle() {
-//         var authorName = getAuthor();
-//         var summaryText = getSummary();
-//         if ((!summaryText && summaryText.length) || !(authorName && authorName.length)) return;
-//         document.title = authorName + " - " + summaryText;
-//     }
+    function updateTitle() {
+        var authorName = getAuthor();
+        var summaryText = getSummary();
+        if ((!summaryText && summaryText.length) || !(authorName && authorName.length)) return;
+        document.title = authorName + " - " + summaryText;
+    }
 
     if (hasLocalStorage) {
         restoreSavedPage();
